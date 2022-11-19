@@ -1,0 +1,57 @@
+$FirstColor: rgb(190, 15, 15);
+$SecondColor: #f0f0f0;
+$ThirdColor: rgb(0, 0, 0);
+
+body{
+    overflow: hidden;
+}
+
+//Carrossel
+.carrossel{
+    position: relative;
+    height: 75vh;
+    width: 100vw;
+    overflow: hidden;
+    outline: 7px solid $FirstColor;
+}
+
+.carrossel ul{
+    position: absolute;
+    height: 75vh;
+    width: 300vw;
+    display: flex;
+    list-style: none;
+}
+
+.carrossel li{
+    position: relative;
+    animation: slide 30s infinite ease-in-out;
+}
+
+@keyframes slide{
+    0%{left: 0px}
+    23%{left: 0px}
+    33%{left: -1920px}
+    56%{left: -1920px}
+    66%{left: -3840px}
+    96%{left: -3840px}
+    100%{left: 0px}
+}
+//
+
+.divtext{
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+.text1{
+    text-align: center;
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.text2{
+    text-align: center;
+}
