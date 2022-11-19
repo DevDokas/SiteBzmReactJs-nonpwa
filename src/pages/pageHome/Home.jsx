@@ -1,14 +1,28 @@
 //React & Bibliotecas
 import React from 'react';
-import {Routes, Route} from 'react-router-dom'
-//Rotas
-import '../About/About.jsx'
+
+//Components
+import Nav from '../components/Nav/Nav.jsx'
+import Footer from '../components/Footer/Footer.jsx'
+
 //CSS
 import './styles/Home.css';
 
+//Home app
 export default function Home() {
   return (
-    <div className="App">
+    <React.StrictMode>
+      <Nav />
+      <HomeApp />
+      <Footer />
+    </React.StrictMode>
+  );
+}
+
+//Home módulo
+function HomeApp() {
+  return (
+    <div className="Home">
       <div className="carrossel">
 
         <ul>
@@ -29,7 +43,7 @@ export default function Home() {
         </div>
       </div>
     </div>
-  );
+)
 }
 
 
