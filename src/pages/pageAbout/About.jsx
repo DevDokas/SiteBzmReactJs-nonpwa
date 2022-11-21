@@ -62,7 +62,7 @@ function AboutAppTest() {
                     <div className="TabBox">
                         <div>
                             <picture>
-                                <img className="TabImages" src="/images/1.jpg" alt="" />
+                                <img className="TabImages" src="/images/2.jpg" alt="" />
                             </picture>
                         </div>
                         <div className="TabText">
@@ -82,7 +82,7 @@ function AboutAppTest() {
                         </div>
                         <div>
                             <picture>
-                                <img className="TabImages" src="/images/1.jpg" alt="" />
+                                <img className="TabImages" src="/images/3.jpg" alt="" />
                             </picture>
                         </div>
                     </div>
