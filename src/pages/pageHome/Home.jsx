@@ -12,7 +12,6 @@ import './styles/Home.css';
 export default function Home() {
   return (
     <React.StrictMode>
-      <Nav />
       <HomeApp />
       <Footer />
     </React.StrictMode>
@@ -23,6 +22,8 @@ export default function Home() {
 function HomeApp() {
   return (
     <div className="Home">
+      <div className='NavBox'><Nav /></div>
+
       <div className="carrossel">
 
         <ul>

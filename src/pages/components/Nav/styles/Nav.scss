@@ -7,8 +7,9 @@ height: 50px;
 }
 
 nav {
+    margin: 0;
     top: 0;
-    position:relative;
+    position:fixed;
     background-color: #f0f0f0;
     justify-content: space-between;
     padding: 20px 30px;
