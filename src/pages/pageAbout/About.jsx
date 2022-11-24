@@ -16,12 +16,12 @@ import './styles/style.css'
 export default function About() {
     return (
         <React.StrictMode>
-            <AboutAppTest />
+            <AboutApp />
         </React.StrictMode>
     )
 }
 
-function AboutAppTest() {
+function AboutApp() {
     const [value, setValue] = useState('1')
     const handleChange = (event, newValue) => {
         setValue(newValue)
