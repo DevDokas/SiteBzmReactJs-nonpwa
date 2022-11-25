@@ -71,3 +71,78 @@ body{
 .text2{
     text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+
+    *{
+        margin: 0;
+    }
+    
+    body{
+        overflow: hidden;
+        max-width: 100vw;
+    }
+
+    .NavBox{
+        top: 0;
+        position:relative;
+        background-color: #f0f0f0;
+        justify-content: space-between;
+        display: flex;
+        height: 70px;
+        align-items: center;
+        max-width: 100vw;
+        min-width: 100vw;
+    }
+    
+    //Carrossel
+    .carrossel{
+        position: relative;
+        height: 75vh;
+        width: 100vw;
+        overflow: hidden;
+        outline: 7px solid $FirstColor;
+    }
+    
+    .carrossel ul{
+        position: absolute;
+        height: 75vh;
+        width: 300vw;
+        display: flex;
+        list-style: none;
+    }
+    
+    .carrossel li{
+        position: relative;
+        animation: slide 30s infinite ease-in-out;
+    }
+    
+    @keyframes slide{
+        0%{left: 0px}
+        23%{left: 0px}
+        33%{left: -1920px}
+        56%{left: -1920px}
+        66%{left: -3840px}
+        96%{left: -3840px}
+        100%{left: 0px}
+    }
+    //
+    
+    .divtext{
+        position: absolute;
+        margin-top: 30vh;
+        margin-left: 50vw;
+        transform: translate(-50%, -50%);
+    }
+    
+    .text1{
+        text-align: center;
+        font-size: 54px;
+        font-weight: 600;
+    }
+    
+    .text2{
+        text-align: center;
+    }
+    
+}

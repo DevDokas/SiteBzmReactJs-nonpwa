@@ -26,8 +26,8 @@ export default function Footer () {
                 </a>
             </li>
         </ul>
-        <p> R. Francisco Cruvinel de Resende, 272 - Mirante, Juruaia - MG, 37805-000</p>
-        <p>(35) 3553-1894</p>
+        <p className="address"> R. Francisco Cruvinel de Resende, 272 - Mirante, Juruaia - MG, 37805-000</p>
+        <p className="tell">(35) 3553-1894</p>
     </footer>
     )
 }

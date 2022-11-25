@@ -10,6 +10,7 @@ import AntTab from './styles/AntTab.jsx'
 import AntTabs from './styles/AntTabs.jsx'
 import TabPages from "./styles/TabPages";
 import './styles/style.css'
+import BoxContent from "./styles/BoxContent";
 
 
 
@@ -30,14 +31,14 @@ function AboutApp() {
         <>
         <Nav />
         <TabContext value={value}>
-            <Box sx={{ marginTop: '110px',borderTop: 2,borderBottom: 3, borderColor: 'black', backgroundColor: 'rgb(190, 15, 15)' }}>
+            <BoxContent>
                 <AntTabs onChange={handleChange} aria-label="Barra de navegação de produtos" centered>
                     <AntTab sx={{}} label="Tecidos" value="1" />
                     <AntTab label="Rendas" value="2" />
                     <AntTab label="Aviamentos" value="3" />
                     <AntTab label="Tinturaria" value="4" />
                 </AntTabs>
-            </Box>
+            </BoxContent>
             <Box>
 
                 {/* Tab1 */}
