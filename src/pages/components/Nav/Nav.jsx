@@ -18,7 +18,7 @@ export default function Nav() {
 
                 <div className="Buscador">
                     <input type="search" className="inpt inputbusca" name="inpt inputbusca" id="inpt inputbusca" placeholder="Estou procurando por..." />
-                    <img className="footerico searchico" src="/images/search.png" alt=""/>
+                    <img className="searchico" src="/images/search.png" alt=""/>
                 </div>
             </nav>
         </div>

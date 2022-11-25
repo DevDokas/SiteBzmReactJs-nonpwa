@@ -56,11 +56,6 @@ nav li a:hover {
     height: 50px;
 }
 
-.footerico {
-    height: 15px;
-    width: 15px;
-}
-
 .Buscador {
     position: relative;
     height: 60px;
@@ -85,6 +80,8 @@ nav li a:hover {
     top: 50%;
     right: 85%;
     transform: translate(-50%, -50%);
+    height: 20px;
+    width: 20px;
 }
 
 @media screen and (max-width: 730px) {
@@ -105,14 +102,6 @@ nav li a:hover {
     .bzmlogo{
         height: 35px;
         margin-left: -20px;
-    }
-
-
-    .searchico {
-        position: absolute;
-        top: 50%;
-        right: 85%;
-        transform: translate(-50%, -50%);
     }
 
     .Buscador {
@@ -139,9 +128,15 @@ nav li a:hover {
     .searchico {
         position: absolute;
         top: 50%;
-        right: 78%;
+        right: 83%;
         transform: translate(-50%, -50%);
+        height: 15px;
+        width: 15px;
     }
+
+    .inputbusca img {
+        width: 10px;
+    };
 
     nav li a {
         color: rgb(190, 15, 15);
